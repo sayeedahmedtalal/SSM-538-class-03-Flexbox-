@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+   box-sizing: border-box;
+}
+.img{
+    max-width: 100%;
+}
+
+.heroBanner{ 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(180, 150, 207);
+    padding: 100px;
+    background-image: url(../images/1\ \(6\).jpg);
+}
+.bannerContent{
+    max-width: 1000px; 
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.bannerContent h1{
+    font-size: 40px;
+    color: #325a55;
+
+}
+.bannerContent p {
+    font-size: 18px;
+     color: #325a55;
+}
+
+
+
+
+.blogSection{
+    padding: 50px 0;
+ }
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    flex-basis: 33.33%;
+    padding: 10px;
+
+}
+.card{
+    padding: 50px 30px;
+    background-color: hwb(208 94% 1%);
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    background-image: url(../images/1\ \(6\).jpg);
+   
+}
+
+
+  
+.card h2{
+    font-size: 35px;
+    color: #325a55;
+    text-transform: uppercase;
+    }
+.card p{
+    font-size: 18px;
+    line-height: 1.4;
+    color: #325a55;
+}    
+.card a {
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+
+.card:hover{
+   
+}
+.card:hover h2{
+   
+}
+.card:hover p{
+
+}
+.card:hover a {
+    background-color: #fff;
+    color: #222;
+}
